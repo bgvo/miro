@@ -14,7 +14,7 @@ module Miro
       @options ||= {
         :image_magick_path  => convert.length > 0 ? convert : '/usr/bin/convert',
         :resolution         => "150x150",
-        :color_count        => 8,
+        :color_count        => 5,
         :quantize           => 'RGB',
         :method             => 'pixel_group'
       }
